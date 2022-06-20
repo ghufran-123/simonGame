@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bigCircle
+{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box
+{
+    width: 202px;
+    height: 202px;
+    /* background-color: yellow;
+    border: solid red; */
+    padding: 10%;   
+}
+.bx1
+{
+    background-color: yellow;
+    border: solid white;
+}
+
+.bx2
+{
+    background-color: red;
+    border: solid white;
+}
+.bx3
+{
+    background-color: green;
+    border: solid white;
+}
+
+.bx4
+{
+    background-color: blue;
+    border: solid white;
+}
+:hover.box{
+    transform: translate(-6px, -6px);
+}
+.row
+{
+    padding: 0;
+    margin: 0;
+}
+.btn
+{
+    margin-top: 3%;
+}
+
+h1{
+    margin-left: 10%;
+}
